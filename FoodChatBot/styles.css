@@ -1,0 +1,96 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8b400;
+    text-align: center;
+    padding: 10px 0;
+}
+section {
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+section h2 {
+    color: #ff5733;
+}
+
+footer {
+    background-color: #ff5733;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#home img {
+    width: 1800px;
+    height: 700px;
+}
+
+#menu {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.menu-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.menu-container h3 {
+    font-weight: bold;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-image {
+    width: 1200px;
+    height: 900px;
+}
+
+.chat-bot {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+    z-index: 1000; 
+}
+
+#location, #contactus {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f2f2f2;
+}
+
+#contactus a {
+    color: #f8b400;
+}
