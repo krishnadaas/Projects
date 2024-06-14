@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black;">
+
+    <div class="filter-buttons">
+        <button class="filter-button" data-category="all">All</button>
+        <button class="filter-button" data-category="city">City</button>
+        <button class="filter-button" data-category="landscape">Landscape</button>
+    </div>
+
+    <div class="gallery">
+        <div class="thumbnail" data-category="city">
+            <img src="amritsar.jpg" alt="Amritsar">
+            <div class="description">Amritsar</div>
+        </div>
+        <div class="thumbnail" data-category="city">
+            <img src="hawaMahal.jpg" alt="Hawa Mahal">
+            <div class="description">Hawa Mahal</div>
+        </div>
+        <div class="thumbnail" data-category="landscape">
+            <img src="mountains.jpg" alt="Mountains">
+            <div class="description">Mountains</div>
+        </div>
+        <div class="thumbnail" data-category="city">
+            <img src="taj.jpg" alt="Taj Mahal">
+            <div class="description">Taj Mahal</div>
+        </div>
+    </div>
+
+    <div class="large-image-container" style="background-color: black;">
+        <img id="large-image" src="amritsar.jpg" alt="Large View">
+    </div>
+    <div class="text" style="background-color: black;">
+
+    </div>
+
+    <script src="javaScript.js">
+    </script>
+
+</body>
+</html>
